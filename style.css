@@ -53,3 +53,6 @@ main{
 ul li {
   list-style-type: none;
 }
+body {
+ background-image: url("nebula.jpg");
+}
