@@ -4,6 +4,8 @@ body{
 }
 h1,h2,h3{
   color: #db6a6c;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-style: italic;
 }
 
 img{
@@ -15,6 +17,9 @@ img{
 nav {
   overflow: hidden;
   background-color: #DB6A6C;
+}
+nav {
+  font-family: "Anton", Times, serif;
 }
 
 nav ul {
@@ -28,6 +33,9 @@ nav a {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 21px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-style: italic;
+  text-shadow: 3px 5px 2px #474747;
 }
 
 nav a:hover {
@@ -41,6 +49,7 @@ nav a.active {
 }
 body{
   background-color: pink;
+
 }
 section{
   background-color: white;
@@ -72,4 +81,8 @@ ul li {
   grid-template-columns:25% 25% 25%;
   grid-template-rows:1fr;
   display: grid;
+}
+.menu-container{
+  /* . . . */
+  display: flex;
 }
